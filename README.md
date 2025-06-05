@@ -1,4 +1,4 @@
-# Retail Orders Data Analysis
+#  Data Analytic Project
 
 This project demonstrates a complete workflow to download, process, and analyze retail orders data using the Kaggle API, Python, and SQL. It covers:
 ![Workflow Diagram](https://github.com/user-attachments/assets/8a52c43f-ba27-4337-b1f9-99a4534ab01d)
