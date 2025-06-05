@@ -2,7 +2,7 @@
 
 This project demonstrates a complete workflow to download, process, and analyze retail orders data using the Kaggle API, Python, and SQL. It covers:
 
-![Workflow Diagram]![diagram-export-6-5-2025-9_21_48-AM](https://github.com/user-attachments/assets/9b1ff18f-fcd0-4efe-b52a-739c5030100f)
+[Workflow Diagram]![diagram-export-6-5-2025-9_21_48-AM](https://github.com/user-attachments/assets/9b1ff18f-fcd0-4efe-b52a-739c5030100f)
 
 
 
