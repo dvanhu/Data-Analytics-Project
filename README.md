@@ -1,7 +1,8 @@
 #  Retail Orders Data Analytics – Python, Pandas, SQL, Kaggle API
 
 This project demonstrates a complete workflow to download, process, and analyze retail orders data using the Kaggle API, Python, and SQL. It covers:
-![Workflow Diagram](https://github.com/user-attachments/assets/8a52c43f-ba27-4337-b1f9-99a4534ab01d)
+![Workflow Diagram](![diagram-export-6-5-2025-9_21_48-AM](https://github.com/user-attachments/assets/9b1ff18f-fcd0-4efe-b52a-739c5030100f)
+
 
 
 - Setting up Kaggle API credentials  
