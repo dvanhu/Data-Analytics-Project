@@ -59,7 +59,7 @@ with open(os.path.join(kaggle_dir, 'kaggle.json'), 'w') as f:
 os.chmod(os.path.join(kaggle_dir, 'kaggle.json'), 0o600)
 print("Kaggle API credentials saved.")
 ```
-Download and Extract Dataset
+### Download and Extract Dataset
 Download the dataset orders.csv.zip to the ~/.kaggle/ directory using Kaggle CLI.
 
 Then extract the dataset programmatically:
@@ -78,7 +78,7 @@ with zipfile.ZipFile(zip_path, 'r') as zip_ref:
 print(f"Dataset extracted to: {extract_to}")
 
 ```
-Data Processing with Python
+### Data Processing with Python
 Now clean and process the data using pandas:
 
 ```python
@@ -96,7 +96,7 @@ df['order_date'] = pd.to_datetime(df['order_date'], format='%Y-%m-%d')
 
 df.drop(columns=['list_price', 'cost_price', 'discount_percent'], inplace=True)
 ```
-Load Data into SQLite
+### Load Data into SQLite
 Push the cleaned data into a local SQLite database:
 
 ```python
@@ -107,7 +107,7 @@ conn = sqlite3.connect('mydatabase.db')
 df.to_sql('orders', conn, if_exists='replace', index=False)
 conn.close()
 ```
-SQL Queries for Analysis
+### SQL Queries for Analysis
 Run SQL queries to generate insights such as:
 
 Top 10 highest revenue-generating products
@@ -132,7 +132,7 @@ GROUP BY product_id
 ORDER BY total_sales DESC
 LIMIT 10;
 ```
-Project Structure
+### Project Structure
 ```graphql
 
 retail-orders-analysis/
